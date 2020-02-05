@@ -45,7 +45,7 @@ public class AsteroidScript : MonoBehaviour
 
             Instantiate(shipExplosion, other.gameObject.transform.position, Quaternion.identity);
 
-            //GameControllerScript.getInstance().getGameOver();
+            GameControllerScript.getInstance().getGameOver();
             
             //GameControllerScript.getInstance().increaseScore(10);
         }
